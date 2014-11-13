@@ -15,7 +15,6 @@ http://www.springframework.org/schema/aop http://www.springframework.org/schema/
 
     <context:component-scan base-package="*"/>
     <!--start jade inject dao-->
-    <bean class="net.paoding.rose.jade.context.spring.JadeBeanFactoryPostProcessor"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/view/"/>
